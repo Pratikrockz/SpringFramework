@@ -2,11 +2,11 @@ package learnSpring.springFrameWork.game;
 
 public class gamerunner {
 	// MarioGame game;
-	SuperContraGame game;
+	private GamingConsole game;
 
 	//// this is called tightly coupled this is why we should avoid it
 
-	public gamerunner(SuperContraGame game) {
+	public gamerunner(GamingConsole game) {
 		this.game = game;
 	}
 
