@@ -4,7 +4,7 @@ public class gamerunner {
 	// MarioGame game;
 	SuperContraGame game;
 
-	//// this is called tightly coupled
+	//// this is called tightly coupled this is why we should avoid it
 
 	public gamerunner(SuperContraGame game) {
 		this.game = game;
