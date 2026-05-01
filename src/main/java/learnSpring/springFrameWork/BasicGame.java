@@ -1,6 +1,6 @@
 package learnSpring.springFrameWork;
 
-import learnSpring.springFrameWork.game.MarioGame;
+import learnSpring.springFrameWork.game.Pacmangame;
 import learnSpring.springFrameWork.game.gamerunner;
 
 public class BasicGame {
@@ -9,7 +9,8 @@ public class BasicGame {
 		// var marioGame = new MarioGame(); // creating game object
 		// var SuperContraGame = new SuperContraGame();
 		// var game = new SuperContraGame();
-		var game = new MarioGame();
+		// var game = new MarioGame();
+		var game = new Pacmangame();
 		var gamerunner = new gamerunner(game); // sending mariogame objectto gameRunner
 		gamerunner.run();
 
@@ -18,6 +19,6 @@ public class BasicGame {
 }
 
 // In case of tightly coupled game runner class is directly calling mario game or supercontra game now
-// game runner calling gameconsole interface and mario game super contra game implemnets gaming console interface 
+// game runner calling gameconsole interface and mario game super contra game implemnets gaming console interface
 
 //It is loosely coupled
